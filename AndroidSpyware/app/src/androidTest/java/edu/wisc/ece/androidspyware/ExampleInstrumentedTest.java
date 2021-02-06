@@ -1,4 +1,4 @@
-package edu.wisc.ece.andriodspyware;
+package edu.wisc.ece.androidspyware;
 
 import android.content.Context;
 
