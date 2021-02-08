@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Andriod Spyware</string>
+    <string name="accessibility_service_label">Service Label</string>
+    <string name="accessibility_service_description">Service Description</string>
 </resources>
