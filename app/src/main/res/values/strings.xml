@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Dice</string>
+    <string name="roll_the_dice">Roll the dice</string>
+    <string name="accessibility_service_label">Service Label</string>
+    <string name="accessibility_service_description">Service Description</string>
+</resources>

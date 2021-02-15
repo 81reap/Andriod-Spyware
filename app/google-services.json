@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "762864706650",
+    "project_id": "dice-b4dad",
+    "storage_bucket": "dice-b4dad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:762864706650:android:8c7fe9748e03dba0c06463",
+        "android_client_info": {
+          "package_name": "com.example.android.dice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "762864706650-cc32uij96s6cmfuhfk5tgsc2880m8tgq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3dRHkZ19jX07WWeqVyX3IBgOgCoN0DY0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "762864706650-cc32uij96s6cmfuhfk5tgsc2880m8tgq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
